@@ -26,5 +26,7 @@ namespace NHLPlayv3.Models
             optionsBuilder.UseSqlServer(configuration.GetConnectionString("TestConnection"));
         }
         public Microsoft.EntityFrameworkCore.DbSet<Models.Team> Teams { get; set; }
+
+        public Microsoft.EntityFrameworkCore.DbSet<Models.Coach> Coachs { get; set; }
     }
 }

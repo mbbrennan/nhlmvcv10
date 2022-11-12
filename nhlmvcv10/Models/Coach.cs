@@ -12,5 +12,6 @@ namespace NHLPlayv3.Models
         public int id { get; set; }
         public string lastname { get; set; }
         public string firstname { get; set; }
-    }
+        public DateTime bdate {get; set; }
+        }
 }
